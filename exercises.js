@@ -67,6 +67,21 @@ console.log(testGreeting); //printing the output value of the function.
 */
 
 
+/*
+ * #5
+ * Function - divide
+ * Declare a function named `divide` which will take two parameters: `num1` and `num2`.
+ *
+ *    @param Datatype: Number `num1`
+ *    @param Datatype: Number `num2`
+ *    @return Datatype: Number
+ *
+ * This function will divide two numbers and return the quotient of these two numbers.
+ * Invoke the function and assign it to a variable named `quotient`.
+ * Console.log `quotient` to test your code.
+*/
+
+
 /**
  *  #5
  *  Function - checkDifference
