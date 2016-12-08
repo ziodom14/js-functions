@@ -52,17 +52,19 @@ console.log(testGreeting); //printing the output value of the function.
 */ 
 
 
-/**
- *  #4
- *  Function - multiply
+/*
+ * #4
+ * Function - multiply
+ * Declare a function named `multiply` which will take two parameters: `num1` and `num2`.
  *
  *    @param Datatype: Number `num1`
  *    @param Datatype: Number `num2`
  *    @return Datatype: Number
  *
- *  This function returns the result of multiplying `num1` by `num2`.
- *  Store the return value in a variable named `product`.
- */
+ * This function will multiply two numbers and return the product of these two numbers.
+ * Invoke the function and assign it to a variable named `product`.
+ * Console.log `product` to test your code.
+*/
 
 
 /**
