@@ -122,6 +122,18 @@ console.log(testGreeting); //printing the output value of the function.
 
 /*
  * #9
+ * Function - checkQuotient
+ * Declare a function named `checkQuotient` which does not require any parameters.
+ *
+ *    @return Datatype: Number
+ *
+ * This function will multiply the values stored in the product and quotient.
+ * Console.log your result.  
+*/
+
+
+/*
+ * #10
  * Function - addThenSubtract
  * Declare three variables
  *
@@ -129,32 +141,31 @@ console.log(testGreeting); //printing the output value of the function.
  *   @variable Datatype: Number `bango4`
  *   @variable Datatype: Number `bango5`
  *   
- * Next, declare a function named addThenSubtract which take three parameters: `num1`, `num2`, `num3`.
+ * Next, declare a function named addThenSubtract which takes three parameters: `num1`, `num2`, `num3`.
  *
  *    @param Datatype: Number `num1`
  *    @param Datatype: Number `num2`
  *    @param Datatype: Number `num3`
  *    @return Datatype: Number
  *
- * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. YOU MUST USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
+ * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
- 
- 
+*/ 
 
- This function takes three `Number` arguments,
- *  then adds the first two arguments together.
- *  Then with the sum of that operation, subtract
- *  the value at the third argument. _This function should
- *  make use of your previous functions_.
+
+/*
+ * #11
+ * Function - multiplyThenDivide
+ * Declare a function named multiplyThenDivide which takes three parameters: `num1`, `num2`, `num3`.
  *
- *  **example:**
- *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
- */
-
-
-/**
- *  #9
- *  Function - addThenMultiply
+ *    @param Datatype: Number `num1`
+ *    @param Datatype: Number `num2`
+ *    @param Datatype: Number `num3`
+ *    @return Datatype: Number
+ *
+ * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
+ * Console.log your result.
+*/ 
  *
  *    @param Datatype: Number `numX`
  *    @param Datatype: Number `numY`
@@ -167,7 +178,7 @@ console.log(testGreeting); //printing the output value of the function.
  *  _This function also should make use of your previous functions_.
  *
  *  Store the return of this function to a variable named `howMany`.
- */
+*/
 
 
 /**
