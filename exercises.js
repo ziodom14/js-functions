@@ -108,13 +108,17 @@ console.log(testGreeting); //printing the output value of the function.
 */ 
 
 
-/**
- *  #7
- *  Function - checkProduct
+/*
+ * #8
+ * Function - checkProduct
+ * Declare a function named `checkProduct` which does not require any parameters.
  *
  *    @return Datatype: Number
  *
- *  This function does not require any parameters.
+ * This function will multiply the values stored in the variables sum and product.
+ * Console.log your result. 
+ 
+ This function does not require any parameters.
  *  This function checks the value stored at `product` and
  *  multiplies it by the number stored at `difference` and
  *  then prints the result to the console.
