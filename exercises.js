@@ -1,6 +1,18 @@
-/**
- *  Below are some specifications for Functions to be built.
- *
+/*
+ * A function is a block of code (a series of instructions) designed to execute a certain task. Functions allow you to reuse code.
+ 
+* i.e. A function to generate a greeting to specific person you designate:*/
+
+function greeting(guest){ //takes in a parameter named 'guest' which acts like a local variable inside the function
+ return "Good afternoon " + guest + ".";  //the output value after the function is invoked
+}
+greeting("Mr. Smith"); //invoking or calling the function to execute the code (instructions) inside the function.
+
+var testGreeting = greeting("Mr. Smith"); //assigning the function call into a variable 
+console.log(testGreeting); //printing the output value of the function.
+
+/*Below are some specifications for Functions to be built. */
+/*
  *  #1
  *  Declare Two Variables
  *    @variable Datatype: Number `a`
