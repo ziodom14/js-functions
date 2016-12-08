@@ -14,7 +14,7 @@ console.log(testGreeting); //printing the output value of the function.
 /*Below are some specifications for Functions to be built. */
 /*
  *  #1
- * Declare Two Variables
+ * Declare two variables
  *   @variable Datatype: Number `bango1`
  *   @variable Datatype: Number `bango2`
  *
@@ -115,28 +115,33 @@ console.log(testGreeting); //printing the output value of the function.
  *
  *    @return Datatype: Number
  *
- * This function will multiply the values stored in the variables sum and product.
- * Console.log your result. 
- 
- This function does not require any parameters.
- *  This function checks the value stored at `product` and
- *  multiplies it by the number stored at `difference` and
- *  then prints the result to the console.
- *
- *  Can you see how to use a previously-created function to help?
- */
+ * This function will multiply the values stored in the sum and product.
+ * Console.log your result.  
+*/
 
 
-/**
- *  #8
- *  Function - addThenSubtract
+/*
+ * #9
+ * Function - addThenSubtract
+ * Declare three variables
  *
- *    @param Datatype: Number `numA`
- *    @param Datatype: Number `numB`
- *    @param Datatype: Number `numC`
+ *   @variable Datatype: Number `bango3`
+ *   @variable Datatype: Number `bango4`
+ *   @variable Datatype: Number `bango5`
+ *   
+ * Next, declare a function named addThenSubtract which take three parameters: `num1`, `num2`, `num3`.
+ *
+ *    @param Datatype: Number `num1`
+ *    @param Datatype: Number `num2`
+ *    @param Datatype: Number `num3`
  *    @return Datatype: Number
  *
- *  This function takes three `Number` arguments,
+ * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. YOU MUST USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
+ * Console.log your result.
+ 
+ 
+
+ This function takes three `Number` arguments,
  *  then adds the first two arguments together.
  *  Then with the sum of that operation, subtract
  *  the value at the third argument. _This function should
