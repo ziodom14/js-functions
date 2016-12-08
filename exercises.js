@@ -14,38 +14,25 @@ console.log(testGreeting); //printing the output value of the function.
 /*Below are some specifications for Functions to be built. */
 /*
  *  #1
- *  Declare Two Variables
- *    @variable Datatype: Number `a`
- *    @variable Datatype: Number `b`
+ * Declare Two Variables
+ *   @variable Datatype: Number `orders`
+ *   @variable Datatype: Number `quantity`
  *
- *  These two variables will be passed as parameters to the
- *  functions that we will write. Parameters are the function's arguments.
- *  Parameters allow us to reuse a function with different values. 
- *  Pay close attention to the other
- *  variable names you will create as they will become input to _other_
- *  functions.
- */
-
-
-/**
+ * These two variables will be used to invoke the functions #2 - 
+ 
+ /**
  *  #2
- *  Function - add
- *
+ * Function - add
+ * Declare a function named `add` which will take two parameters: `num1` and `num2`.
+ * 
  *    @param Datatype: Number `num1`
  *    @param Datatype: Number `num2`
  *    @return Datatype: Number
  *
- * This function takes two number arguments, `num1` and `num2`.
- * This function `returns` back a number that is the sum of `num1` 
- * and `num2`.
- *
- * You can test your function by invoking it with two arguments   
- * and saving its return value to a variable. Store the return value
- * in a variable named `sum`. Try invoking it with 
- * your previously declared variables!
- */
-
-
+ * This function will add two numbers and return the sum of these two numbers.
+ * Invoke the function and assign it to a variable named `sum`.
+ * Console.log `sum` to test your code.
+ 
 /**
  *  #3
  *  Function - subtract
