@@ -15,10 +15,10 @@ console.log(testGreeting); //printing the output value of the function.
 /*
  *  #1
  * Declare Two Variables
- *   @variable Datatype: Number `orders`
- *   @variable Datatype: Number `quantity`
+ *   @variable Datatype: Number `bango1`
+ *   @variable Datatype: Number `bango2`
  *
- * These two variables will be used to invoke the functions #2 - 
+ * These two variables will be used to invoke the functions #2 - #5.
 */ 
 
 
