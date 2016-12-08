@@ -19,9 +19,11 @@ console.log(testGreeting); //printing the output value of the function.
  *   @variable Datatype: Number `quantity`
  *
  * These two variables will be used to invoke the functions #2 - 
- 
- /**
- *  #2
+*/ 
+
+
+/*
+ * #2
  * Function - add
  * Declare a function named `add` which will take two parameters: `num1` and `num2`.
  * 
@@ -32,22 +34,22 @@ console.log(testGreeting); //printing the output value of the function.
  * This function will add two numbers and return the sum of these two numbers.
  * Invoke the function and assign it to a variable named `sum`.
  * Console.log `sum` to test your code.
- 
-/**
- *  #3
- *  Function - subtract
+*/
+
+
+/*
+ * #3
+ * Function - subtract
+ * Declare a function named `subtract` which will take two parameters: `num1` and `num2`.
  *
  *    @param Datatype: Number `num1`
  *    @param Datatype: Number `num2`
  *    @return Datatype: Number
  *
- * This function takes two number arguments, `num1` and `num2`.
- * This function `returns` back a number that is equal to `num2`  
- * minus `num1`. Store the return value in a variable named 
- * `difference`.
- *
- * Note that you can reuse the same parameter names without issue!
- */
+ * This function will subtract two numbers and return the difference of these two numbers.
+ * Invoke the function and assign it to a variable named `difference`.
+ * Console.log `difference` to test your code.
+*/ 
 
 
 /**
