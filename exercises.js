@@ -82,34 +82,30 @@ console.log(testGreeting); //printing the output value of the function.
 */
 
 
-/**
- *  #5
- *  Function - checkDifference
+/*
+ * #6
+ * Function - checkSum
+ * Declare a function named `checkSum` which will take a parameter: `x`.
  *
- *    @param Datatype: Number `X`
- *    @return Datatype: String
+ *   @param Datatype: Number `x`
+ *   @return Datatype: String
  *
- *  This function returns the string
- *  "My football team lost X times this week", where `X` is the
- *  value of the parameter.
- *  Invoke this function using the variable `difference` as 
- *  the parameter.
- */
+ * This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value when you invoke the function. Invoke this function using the variable `sum`. 
+ * Console.log your result.
+*/
 
 
-/**
- *  #6
- *  Function - checkSum
+/*
+ * #7
+ * Function - checkDifference
+ * Declare a function named `checkDifference` which will take a parameter `x`.
  *
- *    @param Datatype: Number `X`
+ *    @param Datatype: Number `x`
  *    @return Datatype: String
  *
- *  This function returns the string
- *  "I CAN ADDZ X NUMBERS"  where `X` is the value
- *  of the parameter.
- *  Invoke this function using the variable `sum` as 
- *  the parameter.
- */
+ * This function will return the string "Last night I dreamt that I ate `x` Taco Bell soft tacos."  Where `x` is the value when you invoke the function. Invoke this function using the variable `difference`.
+ * Console.log your results.
+*/ 
 
 
 /**
