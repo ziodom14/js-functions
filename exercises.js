@@ -25,7 +25,7 @@ console.log(testGreeting); //printing the output value of the function.
 /*
  * #2
  * Function - add
- * Declare a function named `add` which will take two parameters: `num1` and `num2`.
+ * Create a function named `add` which will take two parameters: `num1` and `num2`.
  * 
  *    @param Datatype: Number `num1`
  *    @param Datatype: Number `num2`
@@ -40,7 +40,7 @@ console.log(testGreeting); //printing the output value of the function.
 /*
  * #3
  * Function - subtract
- * Declare a function named `subtract` which will take two parameters: `num1` and `num2`.
+ * Create a function named `subtract` which will take two parameters: `num1` and `num2`.
  *
  *    @param Datatype: Number `num1`
  *    @param Datatype: Number `num2`
@@ -55,7 +55,7 @@ console.log(testGreeting); //printing the output value of the function.
 /*
  * #4
  * Function - multiply
- * Declare a function named `multiply` which will take two parameters: `num1` and `num2`.
+ * Create a function named `multiply` which will take two parameters: `num1` and `num2`.
  *
  *    @param Datatype: Number `num1`
  *    @param Datatype: Number `num2`
@@ -70,7 +70,7 @@ console.log(testGreeting); //printing the output value of the function.
 /*
  * #5
  * Function - divide
- * Declare a function named `divide` which will take two parameters: `num1` and `num2`.
+ * Create a function named `divide` which will take two parameters: `num1` and `num2`.
  *
  *    @param Datatype: Number `num1`
  *    @param Datatype: Number `num2`
@@ -85,7 +85,7 @@ console.log(testGreeting); //printing the output value of the function.
 /*
  * #6
  * Function - checkSum
- * Declare a function named `checkSum` which will take a parameter: `x`.
+ * Create a function named `checkSum` which will take a parameter: `x`.
  *
  *   @param Datatype: Number `x`
  *   @return Datatype: String
@@ -98,7 +98,7 @@ console.log(testGreeting); //printing the output value of the function.
 /*
  * #7
  * Function - checkDifference
- * Declare a function named `checkDifference` which will take a parameter `x`.
+ * Create a function named `checkDifference` which will take a parameter `x`.
  *
  *    @param Datatype: Number `x`
  *    @return Datatype: String
@@ -111,7 +111,7 @@ console.log(testGreeting); //printing the output value of the function.
 /*
  * #8
  * Function - checkProduct
- * Declare a function named `checkProduct` which does not require any parameters.
+ * Create a function named `checkProduct` which does not require any parameters.
  *
  *    @return Datatype: Number
  *
@@ -123,7 +123,7 @@ console.log(testGreeting); //printing the output value of the function.
 /*
  * #9
  * Function - checkQuotient
- * Declare a function named `checkQuotient` which does not require any parameters.
+ * Create a function named `checkQuotient` which does not require any parameters.
  *
  *    @return Datatype: Number
  *
@@ -141,7 +141,7 @@ console.log(testGreeting); //printing the output value of the function.
  *   @variable Datatype: Number `bango4`
  *   @variable Datatype: Number `bango5`
  *   
- * Next, declare a function named addThenSubtract which takes three parameters: `num1`, `num2`, `num3`.
+ * Next, create a function named addThenSubtract which takes three parameters: `num1`, `num2`, `num3`.
  *
  *    @param Datatype: Number `num1`
  *    @param Datatype: Number `num2`
@@ -156,7 +156,7 @@ console.log(testGreeting); //printing the output value of the function.
 /*
  * #11
  * Function - multiplyThenDivide
- * Declare a function named multiplyThenDivide which takes three parameters: `num1`, `num2`, `num3`.
+ * Create a function named multiplyThenDivide which takes three parameters: `num1`, `num2`, `num3`.
  *
  *    @param Datatype: Number `num1`
  *    @param Datatype: Number `num2`
@@ -166,6 +166,23 @@ console.log(testGreeting); //printing the output value of the function.
  * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
+
+
+/*
+ * #12
+ * Function shoeSize
+ * Create a function that will take in a parameter named inches. This function will convert inches to centimeters(cm).
+ * Console.log your result.
+*/
+
+/*
+ * #13
+ * Function currencyConverter
+ * Create a function that will take in a parameter named dollar. This function will convert US dollar into Japanese yen.
+ * Console.log your result.
+*/
+
+
 
 
 /*
