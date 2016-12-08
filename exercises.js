@@ -166,24 +166,11 @@ console.log(testGreeting); //printing the output value of the function.
  * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
- *
- *    @param Datatype: Number `numX`
- *    @param Datatype: Number `numY`
- *    @param Datatype: Number `numZ`
- *    @return Datatype: Number
- *
- *  This function takes three `Number` arguments,
- *  then adds the first two arguments together.
- *  Then with the sum of that operation multiply it by the third argument.
- *  _This function also should make use of your previous functions_.
- *
- *  Store the return of this function to a variable named `howMany`.
-*/
 
 
-/**
- *  #10
- *  Function - createFullName
+/*
+ * #12
+ * Function - createFullName
  *
  *    @param Datatype: String `firstName`
  *    @param Datatype: String `lastName`
@@ -194,7 +181,12 @@ console.log(testGreeting); //printing the output value of the function.
  *
  *  **Call this function and pass your first and last name into it.
  *  Store the return value to a variable named** `myFullName`.
- */
+*/
+
+
+/*Final Boss*/
+
+
 
 
 /**
@@ -212,6 +204,8 @@ console.log(testGreeting); //printing the output value of the function.
  *  **Call this function and pass in a number value.
  *  Store the return value to a variable named** `canDrinkBeer`.
  */
+
+
 
 
 /**
