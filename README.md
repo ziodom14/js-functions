@@ -10,10 +10,10 @@
     - `$ cd DevLeague`
     - `$ ls` 
     - `cd js-functions`
-4. Open the js-functions assignment in sublime and write your code in the `functions.js` file.
+4. Open the js-functions assignment in sublime and write your code in the `exercises.js` file.
 5. Run node in your terminal to test your code:
    - `$ cd js-basics`
-   - `node functions.js` (don't forget to console.log your work)
+   - `node exercises.js` (don't forget to console.log your work)
    
 
     
