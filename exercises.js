@@ -184,14 +184,14 @@ console.log(testGreeting); //printing the output value of the function.
 /*
  * #13
  * Function shoeSize
- * Create a function that will take in a parameter named inches. This function will convert inches to centimeters(cm).
+ * Create a function that will take in a parameter named `inches`. This function will convert inches to centimeters(cm).
  * Console.log your result. 
 */
 
 /*
  * #14
  * Function allCaps
- * Create a function that will take in a parameter named str. This function will capitalize all the letters in the variable phrase below. Console.log your result.
+ * Create a function that will take in a parameter named `str`. This function will capitalize all the letters in the variable phrase below. Console.log your result.
 */
 
  var phrase = "believe you can and you're halfway there.";
@@ -199,45 +199,34 @@ console.log(testGreeting); //printing the output value of the function.
 /*
  * #15
  * Function oneCap
- * Create a function that will take in a parameter named str. This function will capitalize only the first letter in the variable phase above. Console.log your result.
+ * Create a function that will take in a parameter named `str`. This function will capitalize only the first letter in the variable phase above. Console.log your result.
 */
 
 
-/*Final Boss*/
-/**
- * #15
- * Function - verifyDrinkingAge
- * 
- *
- *  @param Datatype: Number `age`
- *  @return Datatype: Boolean
- *
- *  This function takes one Number argument, `age`.
- *  This function returns the `Boolean` value `true` or `false` depending
- *  on whether `age` is lower than the legal drinking age
- *  in the state of Hawaii.
- *
- *  **Call this function and pass in a number value.
- *  Store the return value to a variable named** `canDrinkBeer`.
- */
-
-
-/**
+/*
  * #16
- *  Function - throwParty
+ * Function - verifyDrinkingAge
+ * Create a function named verifyDrinkingAge which takes a parameter named `age`. 
  *
- *  @return Datatype: Boolean
+ *   @param Datatype: Number `age`
+ *   @return Datatype: Boolean
  *
- *  This function checks the value stored at the `canDrinkBeer` variable.
- *  If the value is `false`, then it should print to a message to the screen:
- *  "The Party will have tons of Cake!" 
- * If not, then it should print a different message:
- *  "This Party will have an open bar".
+ * This function returns the `Boolean` value `true` or `false` depending on whether `age` is lower than the legal drinking age in the state of Hawaii.
+ *
+ * Call this function and pass in a number value.
+ * Store the return value to a variable named `canDrink`. Console.log your result.
  */
 
 
 /**
- *  #17
+ * #17
+ * Function - throwParty
+ * Create a function named throwParty. This function will check the value stored in the `canDrink` variable in the previous exercise. If the value is true, it will return the message "Cheee Hoo! We going to da party!" If false, then it will return the message "Meh, see you at Starbucks." Store the return value to a variable named `canParty`. Console.log your result.
+ */
+
+
+/*
+ *  #18
  *  Function - eatFood
  *
  *    @param Datatype: String `firstName`
@@ -262,16 +251,4 @@ console.log(testGreeting); //printing the output value of the function.
  */
 
 
-/**
- *  #18
- *  Function - repeater
- *
- *  @return Datatype: none
 
- *  This function will return a string to that repeats one of the phrases
- *  below `X` amount of times, where `X` is the value stored at `howMany`.
- *  Inside of this function it will check if
- *  the value of `canDrinkBeer`, if the value is true
- *  the message will be `"Bacon Pancakes, makin' Bacon Pancakes..."`
- *  othewise the message will be `"Let it go.... LET IT GOOOOOOoOoOoOo..."`
- */
