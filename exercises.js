@@ -190,20 +190,24 @@ console.log(testGreeting); //printing the output value of the function.
 
 /*
  * #14
- * Function currencyConverter
- * Create a function that will take in a parameter named dollar. This function will convert US dollar into Japanese yen.
- * Console.log your result.
+ * Function allCaps
+ * Create a function that will take in a parameter named str. This function will capitalize all the letters in the variable phrase below. Console.log your result.
+*/
+
+ var phrase = "believe you can and you're halfway there.";
+
+/*
+ * #15
+ * Function oneCap
+ * Create a function that will take in a parameter named str. This function will capitalize only the first letter in the variable phase above. Console.log your result.
 */
 
 
 /*Final Boss*/
-
-
-
-
 /**
- *  #11
- *  Function - verifyDrinkingAge
+ * #15
+ * Function - verifyDrinkingAge
+ * 
  *
  *  @param Datatype: Number `age`
  *  @return Datatype: Boolean
@@ -218,10 +222,8 @@ console.log(testGreeting); //printing the output value of the function.
  */
 
 
-
-
 /**
- *  #12
+ * #16
  *  Function - throwParty
  *
  *  @return Datatype: Boolean
@@ -235,7 +237,7 @@ console.log(testGreeting); //printing the output value of the function.
 
 
 /**
- *  #13
+ *  #17
  *  Function - eatFood
  *
  *    @param Datatype: String `firstName`
@@ -261,7 +263,7 @@ console.log(testGreeting); //printing the output value of the function.
 
 
 /**
- *  #14
+ *  #18
  *  Function - repeater
  *
  *  @return Datatype: none
