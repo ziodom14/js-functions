@@ -170,34 +170,29 @@ console.log(testGreeting); //printing the output value of the function.
 
 /*
  * #12
- * Function shoeSize
- * Create a function that will take in a parameter named inches. This function will convert inches to centimeters(cm).
- * Console.log your result.
+ * Function - createFullName
+ * Create a function named createFullName which takes two parameters: `firstName`, `lastName`.
+ *
+ *   @param Datatype: String `firstName`
+ *   @param Datatype: String `lastName`
+ *   @return Datatype: String
+ *
+ *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
+
 
 /*
  * #13
+ * Function shoeSize
+ * Create a function that will take in a parameter named inches. This function will convert inches to centimeters(cm).
+ * Console.log your result. 
+*/
+
+/*
+ * #14
  * Function currencyConverter
  * Create a function that will take in a parameter named dollar. This function will convert US dollar into Japanese yen.
  * Console.log your result.
-*/
-
-
-
-
-/*
- * #12
- * Function - createFullName
- *
- *    @param Datatype: String `firstName`
- *    @param Datatype: String `lastName`
- *    @return Datatype: String
- *
- *  This function takes two String arguments, `firstName` and `lastName`.
- *  This function `returns` back a string which represents someone's full name.
- *
- *  **Call this function and pass your first and last name into it.
- *  Store the return value to a variable named** `myFullName`.
 */
 
 
