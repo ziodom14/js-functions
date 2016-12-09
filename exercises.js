@@ -180,16 +180,30 @@ console.log(testGreeting); //printing the output value of the function.
  *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
 
+/*
+ * #13 
+ * Function - eatFood
+ * Create a function named eatFood which takes three parameters: `firstName`, `lastName`, `food`.
+ *
+ *   @param Datatype: String `firstName`
+ *   @param Datatype: String `lastName`
+ *   @param Datatype: String `food`
+ *   @return Datatype: String
+ *
+ * This function will use the previous `createFullName` function above to create a message. For example, if you invoked the function like this: eatFood("Biggie", "Smalls", "Won Ton Soup"); it will display the message "Biggie Smalls eats Won Ton Soup everyday for breakfast."
+ * Console.log your result.
+ */
+
 
 /*
- * #13
+ * #14
  * Function shoeSize
  * Create a function that will take in a parameter named `inches`. This function will convert inches to centimeters(cm).
  * Console.log your result. 
 */
 
 /*
- * #14
+ * #15
  * Function allCaps
  * Create a function that will take in a parameter named `str`. This function will capitalize all the letters in the variable phrase below. Console.log your result.
 */
@@ -197,14 +211,14 @@ console.log(testGreeting); //printing the output value of the function.
  var phrase = "believe you can and you're halfway there.";
 
 /*
- * #15
+ * #16
  * Function oneCap
  * Create a function that will take in a parameter named `str`. This function will capitalize only the first letter in the variable phase above. Console.log your result.
 */
 
 
 /*
- * #16
+ * #17
  * Function - verifyDrinkingAge
  * Create a function named verifyDrinkingAge which takes a parameter named `age`. 
  *
@@ -219,36 +233,13 @@ console.log(testGreeting); //printing the output value of the function.
 
 
 /**
- * #17
+ * #18
  * Function - throwParty
  * Create a function named throwParty. This function will check the value stored in the `canDrink` variable in the previous exercise. If the value is true, it will return the message "Cheee Hoo! We going to da party!" If false, then it will return the message "Meh, see you at Starbucks." Store the return value to a variable named `canParty`. Console.log your result.
  */
 
 
-/*
- *  #18
- *  Function - eatFood
- *
- *    @param Datatype: String `firstName`
- *    @param Datatype: String `lastName`
- *    @param Datatype: String `food`
- *    @return Datatype: String
- *
- *  This function takes 3 arguments
- *  `firstName`, `lastName`, `food` and prints out a message to your screen.
- *  Internally this function will make use of the `createFullName`
- *  function you created earlier.
- *
- *  **example input:**
- *      if someone called your program like this `eatFood( "John", "Papa", "Pizza" )`
- *  **example output:**
- *     "John Papa loves to eat Pizza"
- *
- *  **example input:**
- *      if someone called your program like this `eatFood( "Peter", "Bojangles", "California Burritos" )`
-  *  **example output:**
- *      "Peter Bojanglesloves loves to eat California Burritos"
- */
+
 
 
 
