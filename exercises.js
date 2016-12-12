@@ -1,25 +1,32 @@
 /*
- * A function is a block of code (a series of instructions) designed to execute a certain task. Functions allow you to reuse code.
+* A function is a block of code (a series of instructions) designed to execute a certain task. Functions allow you to reuse code.
  
 * i.e. A function to generate a greeting to specific person you designate:*/
 
-function greeting(guest){ //takes in a parameter named 'guest' which acts like a local variable inside the function
- return "Good afternoon " + guest + ".";  //the output value after the function is invoked
+// Step One: Define the function.
+function greeting(guest){ // takes in a parameter named 'guest' which acts like a local variable inside the function
+ return "Good afternoon " + guest + ".";  // the output value after the function is invoked
 }
-greeting("Mr. Smith"); //invoking or calling the function to execute the code (instructions) inside the function.
+greeting("Mr. Smith"); // invoking or calling the function to execute the code (instructions) inside the function.
 
-var testGreeting = greeting("Mr. Smith"); //assigning the function call into a variable 
-console.log(testGreeting); //printing the output value of the function.
+// Step Two: Assign the function invocation to a variable.
+var testGreeting = greeting("Mr. Smith"); // assigning the function call into a variable 
+
+// Step Three: Console.log the variable to test function output!
+console.log(testGreeting); // printing the output value of the function.
+
+// From your terminal, try running this file with node in order to see the result of `console.log(testGreeting);`
 
 /*Below are some specifications for Functions to be built. */
 /*
- *  #1
+ * #1
  * Declare two variables
  *   @variable Datatype: Number `bango1`
  *   @variable Datatype: Number `bango2`
  *
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
+
 
 
 /*
@@ -31,10 +38,12 @@ console.log(testGreeting); //printing the output value of the function.
  *    @param Datatype: Number `num2`
  *    @return Datatype: Number
  *
- * This function will add two numbers and return the sum of these two numbers.
+ * This function will add two numbers (the parameters, `num1` and `num2`) and 
+ * return the sum of these two numbers.
  * Invoke the function and assign it to a variable named `sum`.
  * Console.log `sum` to test your code.
 */
+
 
 
 /*
@@ -52,6 +61,7 @@ console.log(testGreeting); //printing the output value of the function.
 */ 
 
 
+
 /*
  * #4
  * Function - multiply
@@ -65,6 +75,7 @@ console.log(testGreeting); //printing the output value of the function.
  * Invoke the function and assign it to a variable named `product`.
  * Console.log `product` to test your code.
 */
+
 
 
 /*
@@ -82,6 +93,7 @@ console.log(testGreeting); //printing the output value of the function.
 */
 
 
+
 /*
  * #6
  * Function - checkSum
@@ -93,6 +105,7 @@ console.log(testGreeting); //printing the output value of the function.
  * This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value when you invoke the function. Invoke this function using the variable `sum`. 
  * Console.log your result.
 */
+
 
 
 /*
@@ -108,6 +121,7 @@ console.log(testGreeting); //printing the output value of the function.
 */ 
 
 
+
 /*
  * #8
  * Function - checkProduct
@@ -120,6 +134,7 @@ console.log(testGreeting); //printing the output value of the function.
 */
 
 
+
 /*
  * #9
  * Function - checkQuotient
@@ -130,6 +145,7 @@ console.log(testGreeting); //printing the output value of the function.
  * This function will multiply the values stored in the product and quotient.
  * Console.log your result.  
 */
+
 
 
 /*
@@ -153,6 +169,7 @@ console.log(testGreeting); //printing the output value of the function.
 */ 
 
 
+
 /*
  * #11
  * Function - multiplyThenDivide
@@ -168,6 +185,7 @@ console.log(testGreeting); //printing the output value of the function.
 */ 
 
 
+
 /*
  * #12
  * Function - createFullName
@@ -179,6 +197,8 @@ console.log(testGreeting); //printing the output value of the function.
  *
  *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
+
+
 
 /*
  * #13 
@@ -195,6 +215,13 @@ console.log(testGreeting); //printing the output value of the function.
  */
 
 
+
+/************** ENGAGE HYPERDRIVE **************/
+/* No more training wheels! For the exercises #14-18, use the experience you've
+*  gained figure out how to build the necessary functions. Use your google-fu to 
+*  figure out anything you don't know! Ganbatte (good luck)! */
+/************** FIRE ALL CANNONS ***************/
+
 /*
  * #14
  * Function shoeSize
@@ -202,34 +229,41 @@ console.log(testGreeting); //printing the output value of the function.
  * Console.log your result. 
 */
 
+
+
 /*
  * #15
  * Function allCaps
- * Create a function that will take in a parameter named `str`. This function will capitalize all the letters in the variable phrase below. Console.log your result.
+ * Create a function that will take in a parameter named `str`. 
+ * This function will capitalize all the letters in the string. 
+ * Console.log your result.
+ * Example input: "believe you can and you're halfway there."
+ * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
+ 
 
- var phrase = "believe you can and you're halfway there.";
 
 /*
  * #16
  * Function oneCap
- * Create a function that will take in a parameter named `str`. This function will capitalize only the first letter in the variable phase above. Console.log your result.
+ * Create a function that will take in a parameter named `str`. 
+ * This function will capitalize only the first letter in the variable phase above. 
+ * Console.log your result.
 */
+
 
 
 /*
  * #17
  * Function - verifyDrinkingAge
  * Create a function named verifyDrinkingAge which takes a parameter named `age`. 
- *
- *   @param Datatype: Number `age`
- *   @return Datatype: Boolean
- *
- * This function returns the `Boolean` value `true` or `false` depending on whether `age` is lower than the legal drinking age in the state of Hawaii.
+ * This function returns a Boolean value, `true` or `false`, depending on 
+ * whether `age` is above or below the legal drinking age in the state of Hawaii.
  *
  * Call this function and pass in a number value.
  * Store the return value to a variable named `canDrink`. Console.log your result.
  */
+
 
 
 /**
