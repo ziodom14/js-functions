@@ -27,8 +27,8 @@ console.log(testGreeting); // printing the output value of the function.
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
 
-var bango1 = 4;
-var bango2 = 7;
+var bango1 = 8;
+var bango2 = 3;
 
 /*
  * #2
@@ -48,11 +48,8 @@ var bango2 = 7;
 function add(num1, num2){
   return num1 + num2;
 }
-
 var sum = add(bango1, bango2);
-console.log(sum);
-
-
+console.log("sum: ", sum);
 
 
 /*
@@ -70,12 +67,11 @@ console.log(sum);
 */ 
 
 function subtract(num1, num2){
-
   return num1 - num2;
 }
 
 var difference = subtract(bango1, bango2);
-console.log(difference);
+console.log("difference: ", difference);
 
 
 /*
@@ -92,7 +88,11 @@ console.log(difference);
  * Console.log `product` to test your code.
 */
 
-var product = 10;
+function multiply(num1, num2){
+  return num1 * num2;
+}
+var product = multiply(bango1, bango2);
+console.log("product: " , product);
 
 /*
  * #5
@@ -108,6 +108,11 @@ var product = 10;
  * Console.log `quotient` to test your code.
 */
 
+function divide(num1, num2){
+  return num1 / num2;
+}
+var quotient = divide(bango1, bango2);
+console.log("quotient: " , quotient);
 
 /*
  * #6
@@ -121,16 +126,10 @@ var product = 10;
  * Console.log your result.
 */
 
-/*function checkSum(x){
-}
-
-console.log(checkSum(sum));*/
-
 function checkSum(x){
   return "Mariah Carey has been married " + x + " amount of times.";
 }
 
-//var mariahMarried = checkSum(sum);
 console.log(checkSum(sum));
 
 /*
@@ -145,11 +144,11 @@ console.log(checkSum(sum));
  * Console.log your results.
 */ 
 
-/*function checkDifference(x){
+function checkDifference(x){
   return "Last night I dreamt that I ate " + x + " Taco Bell soft tacos";
 }
 
-console.log(checkDifference(difference));*/
+console.log(checkDifference(difference));
 
 
 /*
@@ -163,21 +162,13 @@ console.log(checkDifference(difference));*/
  * Console.log your result.  
 */
 
-/*function checkProduct(){
-  return sum * product;
-}
-
-console.log(sum, product);
-console.log(checkProduct());*/
 
 function checkProduct(){
   return sum * product;
-
 }
 
 var showResult = checkProduct();
-console.log(showResult);
-console.log(checkProduct());
+console.log("showResult: " , showResult);
 
 
 /*
@@ -191,12 +182,10 @@ console.log(checkProduct());
  * Console.log your result.  
 */
 
-/*function checkQuotient(){
+function checkQuotient(){
   return product * quotient;
 }
-
-console.log(product, quotient);
-console.log(checkQuotient());*/
+console.log("checkQuotient: " , checkQuotient());
 
 
 /*
@@ -219,48 +208,24 @@ console.log(checkQuotient());*/
  * Console.log your result.
 */ 
 
-/*var bango3 = 3;
-var bango4 = 5;
-var bango5 = 7;
 
-function addThenSubtract(num1, num2, num3){
-  return (num1 + num2) - num3;
-}
-console.log(addThenSubtract(bango3, bango4, bango5));
-
-
-function addThenSubtract(num1, num2, num3){
-  return subtract(add(num1, num2), num3);
-}
-console.log(addThenSubtract(bango3, bango4, bango5));*/
-
-
-var bango3 = 2;
-var bango4 = 4;
-var bango5 = 7;
+var bango3 = 5;
+var bango4 = 6;
+var bango5 = 9;
 
 
 //ver 1
 function addThenSubtract(num1, num2, num3){
-  return (num1 + num2) - n3;
-
-}
-console.log(addThenSubtract(bango3, bango4, bango5));
-
-//ver 2
-function addThenSubtract(num1, num2, num3){
   var sum = add(num1, num2);
   return subtract(sum, num3);
 }
+console.log("addThenSubtract: ", addThenSubtract(bango3, bango4, bango5));
 
-console.log(addThenSubtract(bango3, bango4, bango5));
-
-//ver 3
+//ver 2
 function addThenSubtract(num1, num2, num3){
   return subtract(add(num1, num2), num3);
 }
-
-console.log(addThenSubtract(bango3, bango4, bango5));
+console.log("addThenSubtract: ", addThenSubtract(bango3, bango4, bango5));
 /*
  * #11
  * Function - multiplyThenDivide
@@ -275,13 +240,11 @@ console.log(addThenSubtract(bango3, bango4, bango5));
  * Console.log your result.
 */ 
 
-/*function multiplyThenDivide(num1, num2, num3){
+function multiplyThenDivide(num1, num2, num3){
   return divide(multiply(num1, num2), num3);
+}
+console.log("multiplyThenDivide: " , multiplyThenDivide(bango3, bango4, bango5));
 
-
-console.log(multiplyThenDivide(bango3, bango4, bango5));
-
-}*/
 /*
  * #12
  * Function - createFullName
@@ -294,13 +257,12 @@ console.log(multiplyThenDivide(bango3, bango4, bango5));
  *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
 
-/*function createFullName(firstName, lastName){
+function createFullName(firstName, lastName){
   return firstName + " " + lastName;
 }
-
 var myFullName = createFullName("Bruce", "Lee");
 console.log(myFullName);
-*/
+
 
 /*
  * #13 
@@ -316,11 +278,11 @@ console.log(myFullName);
  * Console.log your result.
  */
 
-/*function eatFood(firstName, lastName, food){
+function eatFood(firstName, lastName, food){
   return createFullName(firstName, lastName) + " eats " + food + " everyday for breakfast.";
 }
 
-console.log(eatFood("Biggie", "Smalls", "Won Ton Soup"));*/
+console.log(eatFood("Biggie", "Smalls", "Won Ton Soup"));
 
 
 /************** ENGAGE HYPERDRIVE **************/
@@ -346,13 +308,6 @@ console.log(shoeSize(inches));
 console.log(shoeSize(8));
 
 
-/*function shoeSize(inches){
-  return inches * 2.54;
-}
-
-console.log(shoeSize(10));
-
-*/
 /*
  * #15
  * Function allCaps
@@ -365,27 +320,10 @@ console.log(shoeSize(10));
  
 var believe =  "believe you can and you're halfway there.";
 
-
-
 function allCaps(str){
   return str.toUpperCase();
-
 }
-console.log(allCaps('cat'));
-
-/*function allCaps(str){
-  return str.toUpperCase();
-}
-
-console.log(allCaps("hello"));
-console.log(allCaps("aloha"));
-*/
-
-/*function allCaps(str){
-  return str.toUpperCase();
-}
-console.log(allCaps("snoop dogg"));*/
-
+console.log(allCaps(believe));
 
 /*
  * #16
@@ -397,41 +335,22 @@ console.log(allCaps("snoop dogg"));*/
 
 //ver 1
 function oneCap(str){
-
   return str.charAt(0).toUpperCase() + str.slice(1);
-
 }
-
-console.log(oneCap("believe you can and you're halfway there."));
+console.log(oneCap(believe));
 
 //ver 2
 function oneCap(str){
   return str[0].toUpperCase() + str.slice(1);
-
 }
 
-console.log(oneCap("believe you can and you're halfway there."));
+console.log(oneCap(believe));
 
 //ver 3
 function oneCap(str){
   return str[0].toUpperCase() + str.substring(1);
-
 }
-
-console.log(oneCap("believe you can and you're halfway there."));
-
-/*function oneCap(str){
-  return str[0].toUpperCase() + str.slice(1);
-}
-console.log(oneCap("i am here!"));
-
-*/
-/*function oneCap(str){
-  return str.charAt(0).toUpperCase() + str.slice(1);
-}
-
-console.log(oneCap("snoop dogg"));*/
-
+console.log(oneCap(believe));
 
 /*
  * #17
@@ -444,7 +363,7 @@ console.log(oneCap("snoop dogg"));*/
  * Store the return value to a variable named `canDrink`. Console.log your result.
  */
 
-/*function verifyDrinkingAge(age){
+function verifyDrinkingAge(age){
   if(age >= 21){
     return true;
   }else{
@@ -453,15 +372,7 @@ console.log(oneCap("snoop dogg"));*/
 }
 
 var canDrink = verifyDrinkingAge(21);
-console.log(canDrink);*/
-
-/*function verifyDrinkingAge(age){
-  return age >=21;
-}
-
-var canDrink = verifyDrinkingAge(20);
 console.log(canDrink);
-*/
 
 
 /**
@@ -471,8 +382,7 @@ console.log(canDrink);
  */
 
 
-
-/*function throwParty(){
+function throwParty(){
   if(canDrink === true){
     return "Cheee Hoo! We going to da party!";
   }else{
@@ -481,7 +391,11 @@ console.log(canDrink);
 }
 
 var canParty = throwParty();
-console.log(canParty);*/
+console.log(canParty);
+
+
+
+
 
 
 
