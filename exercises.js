@@ -129,7 +129,7 @@ console.log(testGreeting); // printing the output value of the function.
  *
  *    @return Datatype: Number
  *
- * This function will multiply the values stored in the sum and product.
+ * This function will multiply the values stored in the sum and product variables.
  * Console.log your result.  
 */
 
@@ -142,7 +142,7 @@ console.log(testGreeting); // printing the output value of the function.
  *
  *    @return Datatype: Number
  *
- * This function will multiply the values stored in the product and quotient.
+ * This function will multiply the values stored in the product and quotient variables.
  * Console.log your result.  
 */
 
