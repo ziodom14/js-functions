@@ -3,9 +3,8 @@
 ##Getting Started
 1. **Fork** this repository
 2. **Clone** this repository from your personal Github account:
-    - Copy the HTTPS or SSH address on the page.
-    - From you DevLeague folder, run the command `$ git clone [SSH or HTTP address]` in your terminal in order to clone this repository into that folder 
-      (you don't need to type the "$"; this is the command __prompt__, and is used to signify your terminal is ready for commands).
+    - Copy the HTTPS address on the page.
+    - From you 'teachertraining' folder, run the command `$ git clone [HTTP address]` in your terminal in order to clone this repository into that folder.
 3. From your terminal, navigate into the js-functions assignment:
     - `$ cd js-functions`
 4. Open the js-functions assignment in sublime and write your code in the `exercises.js` file.
