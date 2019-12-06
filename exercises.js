@@ -353,12 +353,12 @@ console.log ( bigboi);
 */
 
 function oneCap (str) {
-	return str.charAt(0).toUpperCase(str) + str.slice(1);
+	return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-var onespeed = oneCap('hahah my name loe');
+var elliah = oneCap('hahah my name loe');
 
-console.log = onespeed;
+console.log (elliah);
 
 
 
@@ -375,12 +375,14 @@ console.log = onespeed;
  */
 
 function verifyDrinkingAge (age) {
-	return Boolean(age >= 21);
+	return Boolean (age >= 21);
 }
 
-var legal = verifyDrinkingAge(20);
+var canDrink = verifyDrinkingAge (25);
+console.log (canDrink);
 
-console.log = legal;
+
+
 
 
 /**
@@ -389,6 +391,15 @@ console.log = legal;
  * Create a function named throwParty. This function will check the value stored in the `canDrink` variable in the previous exercise. If the value is true, it will return the message "Cheee Hoo! We going to da party!" If false, then it will return the message "Meh, see you at Starbucks." Store the return value to a variable named `canParty`. Console.log your result.
  */
 
+ function throwParty (canDrink) {
+ 	if (canDrink >= 21) {
+ 		return console.log ("Cheee Hoo! We going to da party!")
+ 	} else {
+ 		return console.log ('Meh, see you at Starbucks.');
+ 	}
+ }
+
+var canParty = throwParty(canDrink);
 
 
 
