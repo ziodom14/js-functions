@@ -131,7 +131,7 @@ console.log (quotient);
 */
 
 function checkSum(x) {
-	return 'Mariah Carey has been married ' + sum + ' times.';
+	return 'Mariah Carey has been married ' + x + ' times.';
 }
 
 var newsum = checkSum(sum);
@@ -153,7 +153,7 @@ console.log (newsum);
 */ 
 
 function checkDifference(x) {
-	return 'Last night I dreamt that I ate ' + difference + ' Taco Bell soft tacos.';
+	return 'Last night I dreamt that I ate ' + x + ' Taco Bell soft tacos.';
 }
 
 var difference = checkDifference(difference);
